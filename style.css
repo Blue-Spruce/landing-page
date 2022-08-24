@@ -15,9 +15,10 @@ body {
 header {
     background-color: #1F2937;
     display: flex;
-    width: 1400px;
+    width: 1000px;
     justify-content: space-between;
     align-items: center;
+    padding: 0 40px;
 }
 
 .logo {
@@ -34,10 +35,58 @@ nav ul {
 
 a {
     text-decoration: none;
-    color: #f9faf8;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 a:hover {
     color: lightblue;
+}
+
+.content {
+    display: flex;
+    background-color: #1F2937;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: row;
+    width: 1000px;
+    padding: 100px 40px 130px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.awesome {
+font-size: 48px;
+font-weight: 700;
+color: #f9faf8;
+margin: 0;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.subtext {
+    margin: 0;
+    font-size: 18px;
+    color: #e5e7ebea;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    background-color: #3282f6;
+    color: #ffffffea;
+    border: 0px;
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
